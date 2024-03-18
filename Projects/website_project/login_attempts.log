@@ -1,0 +1,3 @@
+2023-10-09 13:51:20,180 - INFO - Failed login attempt for user: user1 from IP: 127.0.0.1
+2023-10-09 13:51:46,432 - INFO - Failed login attempt for user: user2 from IP: 127.0.0.1
+2023-10-09 13:51:52,473 - INFO - Failed login attempt for user: user3 from IP: 127.0.0.1
