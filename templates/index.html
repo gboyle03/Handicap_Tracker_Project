@@ -1,0 +1,40 @@
+<!-- Index or Home Page for website -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Golf Handicap Tracker</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class = "text-container">
+        <h1>Welcome to the Golf Handicap Tracker</h1>
+        <p>This is a simple website to track your golf handicaps.</p>
+        <!-- Ordered List -->
+        <h2>Some Things to Consider:</h2>
+        <ol>
+            <li>You need to have played at least 20 rounds</li>
+            <li>You need to have kept an accurate score</li>
+            <li>Having FUN is more important than your handicap!</li>
+        </ol>
+        <h3>Useful Links</h3>
+        <!-- Unordered List -->
+        <ul>
+            <li><a href="https://www.usga.org/content/usga/home-page/handicapping.html">USGA - Handicapping</a></li>
+            <li class="separator">|</li> <!-- Use | as the separator -->
+            <li><a href="https://help.18birdies.com/article/550-what-tees-should-i-play">What Tee's Should I play?</a></li>
+            <li class="separator">|</li>
+            <li><a href="https://collegeofgolf.keiseruniversity.edu/lower-your-handicap/">Tips to Lower your Handicap</a></li>
+        </ul>
+        <p></p>
+        <!-- reference other apps -->
+        <p><a href="{{ url_for('about') }}">About</a></p>
+        <p><a href="{{ url_for('contact') }}">Contact</a></p>
+        <p><a href="{{ url_for('login') }}">Log In</a></p>
+        <p><a href="{{ url_for('register') }}">Register</a></p>
+    </div>
+
+<footer>
+    <p>Background photo by [TPC Photographer] on [TPC.com]</p>
+</footer>
+</body>
+</html>
